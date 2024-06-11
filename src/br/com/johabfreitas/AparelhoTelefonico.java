@@ -2,10 +2,10 @@ package br.com.johabfreitas;
 
 public interface AparelhoTelefonico{
 
-    public void ligar();
+    void ligar();
 
-    public void atender();
+    void atender();
 
-    public void iniciarCorreioVoz();
+    void iniciarCorreioVoz();
 
 }

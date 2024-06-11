@@ -1,4 +1,3 @@
-import br.com.johabfreitas.AparelhoTelefonico;
 import br.com.johabfreitas.GeneroMusical;
 import br.com.johabfreitas.IPhone;
 

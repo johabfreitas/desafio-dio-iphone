@@ -14,7 +14,7 @@ public class IPhone extends Musica implements AparelhoTelefonico, NavegadorInter
     }
 
     @Override
-    public void iniciarCorreioVoz() {
+    public void iniciarCorreioVoz() {   
         System.out.println("Ouvindo Caixa Postal");
     }
 
