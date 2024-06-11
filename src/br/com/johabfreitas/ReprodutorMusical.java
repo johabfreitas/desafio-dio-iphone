@@ -1,17 +1,11 @@
 package br.com.johabfreitas;
 
-public class ReprodutorMusical {
+public interface ReprodutorMusical{
 
-    public void tocar(){
-        System.out.println("Tocando");
-    }
+    public void tocar();
 
-    public void pausar(){
-        System.out.println("Pausando");
-    }
+    public void pausar();
 
-    public void selecionarMusica(String musica){
-        System.out.println("Musica selecionada: " + musica);
-    }
+    public void selecionarMusica(String musica);
 
 }

@@ -15,10 +15,6 @@ public class Musica {
         return artista;
     }
 
-    public GeneroMusical getGenero(){
-        return genero;
-    }
-
     //Setters
     public void setMusica(String musica){
         this.musica = musica;
@@ -28,8 +24,10 @@ public class Musica {
         this.artista = artista;
     }
 
-    public void setGenero(GeneroMusical genero){
-        this.genero = genero;
+    public void musicaEscolhida(){
+        System.out.println("Musica Escolhida: " + this.musica);
+        System.out.println("Artista: " + this.artista);
+        System.out.println("Gênero: " + this.genero);
     }
 
 }

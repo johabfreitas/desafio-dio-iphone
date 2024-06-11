@@ -1,17 +1,11 @@
 package br.com.johabfreitas;
 
-public class AparelhoTelefonico {
+public interface AparelhoTelefonico{
 
-    public void ligar(){
-        System.out.println("Aparelho ligado");
-    }
+    public void ligar();
 
-    public void atender(){
-        System.out.println("Ligação atendida");
-    }
+    public void atender();
 
-    public void iniciarCorreioVoz(){
-        System.out.println("Escutando gravação");
-    }
+    public void iniciarCorreioVoz();
 
 }
