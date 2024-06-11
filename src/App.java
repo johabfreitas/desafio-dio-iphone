@@ -1,4 +1,5 @@
 import br.com.johabfreitas.AparelhoTelefonico;
+import br.com.johabfreitas.GeneroMusical;
 import br.com.johabfreitas.IPhone;
 
 public class App {
@@ -20,7 +21,10 @@ public class App {
        System.out.println("-----------------------");
        System.out.println();
 
-       System.out.println("§&§&§ Reproduzindo uma Música §&§&§"); 
-
+       System.out.println("§&§&§ Reproduzindo uma Música §&§&§");
+       iphone.selecionarMusica();
+       iphone.musicaEscolhida("Índios",  "Legião Urbana", GeneroMusical.ROCK);
+       iphone.tocar();
+       iphone.pausar();
     }
 }
