@@ -17,4 +17,4 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
-UML diagramming done at [DIA](https://wiki.gnome.org/Apps/Dia).
+UML diagramming done at [DIA](https://wiki.gnome.org/Apps/Dia) - Dia Diagram Editor, versatile diagramming tool.
